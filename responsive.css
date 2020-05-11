@@ -1,0 +1,12 @@
+/* if viewport height is bigger or equal to 500px, apply the following styles*/
+@media (min-width: 505px){
+    h1::before{
+        content: 'Welcome to my webpage';
+    }
+}
+/* if vieweport width is 499 or less, apply the following styles*/
+@media (max-width: 504px){
+    h1::before{
+        content: 'Welcome';
+    }
+}
