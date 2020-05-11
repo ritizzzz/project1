@@ -1,0 +1,19 @@
+/* any li that is contained inside Ul should be styled this way*/
+ul li{
+    color: green;
+}
+/* > this means the children of ul which in that case is li*/
+ul> li{
+    color: green;
+}
+button{
+    background-color: green;
+    color: orange;
+    width: 20vw;
+    height: 5vh;
+    font: 100px;
+}
+button:hover{
+    color: green;
+    background-color: orange;
+}
